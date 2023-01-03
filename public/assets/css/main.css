@@ -1,0 +1,144 @@
+html, p, h4 {
+    color: #343434;
+}
+
+small {
+    color: #B20000;
+}
+
+.auth-wrapper.auth-basic {
+    background: #181717;
+}
+
+.auth-wrapper.auth-basic .brand-logo {
+    padding: 10px;
+    background: #343434;
+}
+
+.auth-wrapper.auth-basic .brand-logo img {
+    width: 7rem;
+}
+
+.btn-primary {
+    background-color: #82BD74 !important;
+    border-color: #82BD74 !important;
+}
+
+.form-label {
+    color: black;
+}
+
+form .error:not(input) {
+    color: #B20000;
+}
+
+.form-control:focus {
+    border-color: #82bd74;
+}
+
+.input-group-merge .form-control:focus,
+.input-group:not(.bootstrap-touchspin):focus-within .form-control, .input-group:not(.bootstrap-touchspin):focus-within .input-group-text {
+    border-color: #82bd74 !important;
+}
+
+form input.error, form input.error:focus {
+    border-color: #B20000 !important;
+}
+
+/* .main-menu .navbar-header .navbar-brand .brand-logo img {
+    max-width: 8rem;
+} */
+
+.semi-dark-layout .main-menu, .semi-dark-layout .main-menu-content .navigation-main {
+    background-color: #343434;
+}
+
+.main-menu .navbar-header .navbar-brand .brand-text {
+    color: #82BD74;
+}
+
+.main-menu.menu-dark .navigation > li.active > a {
+    background: linear-gradient(118deg, #82bd74, #82bd74);
+    box-shadow: 0 0 2px 0px #cccccc;
+}
+
+footer p {
+    color: #b4b7bd;
+}
+
+.dark-layout .main-menu .collapse-toggle-icon {
+    color: #82bd74 !important;
+}
+
+.draggable .card-body {
+    color: white;
+    padding: 0.7rem !important;
+    text-align: center;
+    border-top: 1px solid #ffffff21;
+}
+
+.draggable .card-header {
+    padding: 1rem;
+}
+
+.draggable .card-header img {
+    width: 100%;
+}
+
+.vertical-layout.vertical-menu-modern.menu-expanded .footer {
+    margin-left: 260px;
+    border-top: 1px solid #ffffff05;
+}
+
+.trashOptionVertical {
+    cursor: pointer;
+    color: #B20000;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    background: #ffffffc7;
+    border-radius: 2rem;
+    padding: 2px;
+}
+
+.trashOptionVertical:hover {
+    background: white;
+}
+
+.trashOptionHorizontal {
+    cursor: pointer;
+    color: #B20000;
+    position: absolute;
+    right: -5px;
+    top: -9px;
+    background: #ffffffc7;
+    border-radius: 2rem;
+    padding: 2px;
+    z-index: 99;
+}
+
+.trashOptionHorizontal:hover {
+    background: white;
+}
+
+
+#optionsPreview .list-group-item{
+    padding-right: 35px;
+}
+
+.dark-layout .avatar {
+    background-color: white;
+}
+
+.imgPreview {
+    width: max-content;
+    padding: 1rem;
+    background: white;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+.imgPreview img {
+    width: 6rem;
+}
